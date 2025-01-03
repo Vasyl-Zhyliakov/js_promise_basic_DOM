@@ -25,7 +25,7 @@ logo.addEventListener('click', () => {
     const error = document.createElement('div');
 
     error.className = 'message error-message';
-    error.textContent = result;
+    error.textContent = result.message;
     body.append(error);
   });
 });
